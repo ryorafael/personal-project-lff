@@ -6,6 +6,7 @@ color: #58784f;
 /* Navbar container */
 nav {
   display: flex;
+  overflow: hidden;
   justify-content: space-between;
   padding: 0 10px;
   background-color: #58784f;
@@ -13,8 +14,8 @@ nav {
 
 /* Links inside the navbar */
 nav a {
-  position: relative;
-  display: flex;
+  float: left; 
+  font-family: inherit;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -35,7 +36,6 @@ nav a {
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
-  
   outline: none;
   color: white;
   padding: 14px 16px;
@@ -51,7 +51,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: float;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -67,4 +67,8 @@ nav a:hover, .dropdown:hover .dropbtn {
   text-decoration: none;
   display: block;
   text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+display: block
 }
