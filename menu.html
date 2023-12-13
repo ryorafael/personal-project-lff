@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dinner Menu</title>
-    <link rel="stylesheet" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dinnermenu.css" />
   </head>
   <body>
     <h1>
@@ -46,6 +49,7 @@
         </article>
       </section>
       <section>
+        <hr>
         <h3>Les Salades</h3>
         <article class="item">
             <p class="food">Salade de la Maison</p>
@@ -54,18 +58,23 @@
                 tangy citrus Dijon vinaigrette
                 and topped with carrot ribbons
             </p>
+            </article>
+            <article class="item">
             <p class="food">Salade de Betteraves et Roquette</p>
             <p class="price">$12</p>
             <p class="description">Quartered beets dressed in lemon vinaigrette paired
                 with orange segments, candied pecans, and spicy arugula tossed
                 with balsamic vinaigrette
             </p>
+            </article>
+            <article class="item">
             <p class="food">Salade de Chevre Chaud avec Figue</p>
             <p class="price">$14</p>
             <p class="description">Warm goat cheese atop a crouton, fig compote, 
                 roasted peppers, field greens, and citrus vinaigrette
             </p>
         </article>
+        <hr>
         <h3>Les Hors D'Oeuvres</h3>
         <article class="items">
             <p class="food">Tartare de Thon*</p>
@@ -74,16 +83,22 @@
                 shallots, soy sauce, Tabasco, sesame and chive oils, 
                 wasabi with seaweed salad and sesame seeds
             </p>
+          </article>
+          <article class="items">
             <p class="food">Baked Brie en Croute</p>
             <p class="price">$16</p>
             <p class="description">Baked Brie served in a puff
                 pastry with seasonal compote
             </p>
+          </article>
+          <article class="items">
             <p class="food">Escargots Provençales</p>
             <p class="price">$15</p>
             <p class="description">Half dozen Helix Snails baked in butter,
                 tomatoes, garlic and herbs
             </p>
+          </article>
+          <article class="items">
             <p class="food">Foie Gras Frais</p>
             <p class="price">$29</p>
             <p class="description">Seared Hudson Valley Foie Gras, 
@@ -91,11 +106,119 @@
                 macadamia liqueur, macadamia nuts, 
                 with mango and raspberry coulis
             </p>
-            <p class="food"></p>
-            <p class="price">$</p>
-            <p class="description"></p>
+          </article>
+          <article class="items">
+            <p class="food">Moules Marinières</p>
+            <p class="price">$20</p>
+            <p class="description">Prince Edward Island Mussels steamed in
+              a broth of white wine, bay leaf, mustard and cream
+            </p>
+          </article>
+          <article class="items">
+            <p class="food">Coquilles St. Jacques</p>
+            <p class="price">$17</p>
+            <p class="description">Bay Scallops, leeks, and mushrooms in a creamy
+              white wine and Gruyère cheese sauce
+            </p>
+          </article>
+          <article class="items">
+            <p class="food">Pommes Frites</p>
+            <p class="price">Small / $10
+              Large / $15
+            </p>
+            <p class="description">The BEST French fries in Kansas City</p>
         </article>
       </section>
-    </div>
+      <section>
+        <hr>
+        <h3>Végétarien Vegan</h3>
+        <article class="items">
+          <p class="food">Raviolis de Courge Musquée</p>
+          <p class="price">$31</p>
+          <p class="description">Butternut squash ravioli in a brown
+            butter sage sauce with red cabbage, beets
+            and Brussels sprouts
+          </p>
+        </article>
+        <article class="items">
+          <p class="food">Tajine Végétarien</p>
+          <p class="price">$28
+          </p>
+          <p class="description">Vegetable Tagine made with eggplant, onions
+            zucchini, yellow squash, chickpeas, dried fruit, 
+            almonds, walnuts, bell pepper and exotic spices on 
+            a bed of lime infused quinoa
+          </p>
+        </article>
+      </section>
+      <section>
+        <hr>
+        <h3>Les Poissons</h3>
+        <article class="items">
+          <p class="food">Saumon écossais</p>
+          <p class="price">$32
+          </p>
+          <p class="description">Pan seared Salmon with a creamy gooseberry sauce,
+            orange confit topped with spicy arugula and served
+            with fried potatoes
+          </p>
+        </article>
+        <article class="items">
+          <p class="food">Gnocchi fruits de mer sauce armoricaine</p>
+          <p class="price">$29
+          </p>
+          <p class="description">A seafood medley of mussels, crayfish, shrimp, and bay Scallops
+            in a shellfish, tomato, cream sauce with potato gnocchi
+          </p>
+        </article>
+      </section>
+      <section>
+        <hr>
+        <h3>Les Viandes et Volailles</h3>
+        <article class="items">
+          <p class="food">Médaillons de porc enrobé de bacon</p>
+          <p class="price">$32
+          </p>
+          <p class="description">Pork Loin Medaillons wrapped in bacon and seared, 
+            with a dark balsamic pork stock reduction with
+            caramelized shallots, served with mashed potatoes and sautéed vegetables
+          </p>
+        </article>
+        <article class="items">
+          <p class="food">Steak au Poivre*</p>
+          <p class="price">$53
+          </p>
+          <p class="description">Kansas City Strip Steak pan seared, flambéed in Cognac
+            with Madagascar green peppercorns, veal demi glace and cream, served with
+            pommes frites and mixed field greens.
+          </p>
+        </article>
+        <article class="items">
+          <p class="food">Filet le Fou*</p>
+          <p class="price">$64
+          </p>
+          <p class="description">Filet Mignon paired with lobster meat with a Boursin Sabayon,
+            served with Dauphine potatoes and grilled asparagus
+          </p>
+        </article>
+        <article class="items">
+          <p class="food">Caille Farci</p>
+          <p class="price">$41
+          </p>
+          <p class="description">Quail stuffed with brioche and foie gras, grilled and finished
+            in the oven. Sauce Perigourdine made with game stock, truffles, foie gras, 
+            and Madeira wine. Served with mashed potatoes and vegetables.
+          </p>
+        </article>
+      </section>
+      <section>
+      </div>
+        <h3>For Your Health</h3>
+        <p class="health"><em>*According to the KC Health Department, the consumption of raw and/or 
+          under cooked meat, poultry, seafood, shellfish or eggs may increase
+          your rish of food-borne illness.</em>
+        </p>
+      </section>
+    <footer>400 E. 5th Street Kansas City, MO 64106 816-474-6060</footer>
   </body>
 </html>
