@@ -67,8 +67,42 @@ nav {
   }
   
   .dropdown:hover .dropdown-content {
+    display:block
+  }
+
+  /* Responsive Styles for Mobile */
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    float: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dropdown {
+    float: none;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+    text-align: center;
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
     display: block;
   }
+}
+
 
   .cocktails {
     background-color: #f7e9cd;
@@ -96,6 +130,7 @@ nav {
     color: #58784f;
     font-family: "Cormorant Garamond", serif;
     border: thick double;
+    padding: 10px;
   }
   
   body {
@@ -106,6 +141,11 @@ nav {
     text-align: center;
     font-size: 16px;
     font-family: "Playfair Display", serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 800px;
   }
 
   h3 {
@@ -129,4 +169,18 @@ nav {
 
 hr {
     border-bottom: 1px solid #709078;
+  }
+
+  .bubbles {
+    position: absolute;
+    max-width: 100px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  footer {
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+
   }

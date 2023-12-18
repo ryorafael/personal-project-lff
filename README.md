@@ -16,3 +16,5 @@ need to figure out how to merge hover down class with grid class
 
 12/18
 Worked on cocktail menu and putting nav bar on all pages for easier directory, noticed a few issues with the phone website that need to be adjusted later on. 
+
+make a new branch for responsive website and figure out how to get the stuff on phones

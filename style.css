@@ -78,6 +78,40 @@ nav a:hover,
   display: block;
 }
 
+/* Responsive Styles for Mobile */
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    float: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dropdown {
+    float: none;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+    text-align: center;
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+
 h2 {
   font-size: 20px;
   font-family: "Cormorant Garamond", serif;
