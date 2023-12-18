@@ -1,60 +1,73 @@
 h3 {
-text-align: center;
-font-size: 25px;
-font-style: oblique;
-
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+  text-shadow: 2px 2px 4px rgb(32, 72, 32);
 }
 
- .description, .food {
-display: auto;
-text-align: center;
-
+.description {
+  display: auto;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
 }
 
 .price {
-    text-align: center;
+  text-align: end;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
 }
 
 hr {
-    border-bottom: 1px solid #709078;
-  }
+  border-bottom: 1px solid #709078;
+}
 
 .health {
-    text-align: center;
+  text-align: center;
 }
-.dinnermenu {
-background-color: #f7e9cd;
-border: solid 3px #709078;
-margin-left: auto;
-margin-right: auto;
-padding: 10px;
-max-width: 800px;
 
+.dinnermenu {
+  background-color: #f7e9cd;
+  border: thick double #709078;
+  box-shadow: 5px 5px 5px #c3c5da; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 800px;
 }
 
 .item {
-    text-align: center;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 37px;
-    color: #58784f;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-h2 {
-    text-align: center;
-    font-size: 30px;
-    color: #58784f;
-    font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 37px;
+  color: #58784f;
+  font-family: "Cormorant Garamond", serif;
+  border: thick double;
 }
 
 body {
-    padding: auto;
-    
+  padding: 10px 50px 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.food {
+  font-family: "Cormorant Garamond", serif;
+  color: #58784f;
+  font-size: 23px;
+  display: auto;
+  text-align: center;
 }
