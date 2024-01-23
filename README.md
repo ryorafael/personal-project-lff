@@ -31,3 +31,6 @@ des liens direct a des endroits dans le page
 
 01/19/2024
 added a new google reviews widget to the bottom of the page
+
+01/23/2024
+the modal was added and adjusted to only show onclick with a javascript function. Now you can make a reservation, but the backend needs to be fixed in order for the submission to be saved locally. The header image was added for the first page. Some minor adjustments will be done to start a slideshow function with images of the restaurant.
