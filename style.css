@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: auto;
+}
+
 h1,
 h2,
 h3,
@@ -273,4 +277,15 @@ logo absolute*/
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+div.scroll-container {
+  background-color: #58784f;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
