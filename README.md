@@ -34,3 +34,6 @@ added a new google reviews widget to the bottom of the page
 
 01/23/2024
 the modal was added and adjusted to only show onclick with a javascript function. Now you can make a reservation, but the backend needs to be fixed in order for the submission to be saved locally. The header image was added for the first page. Some minor adjustments will be done to start a slideshow function with images of the restaurant.
+
+1/31/2024
+working on finishing the projects front ent, about us page, event page and the two other menus are still in progress, but will try and finish the about us page today and then work on event page tomorrow
