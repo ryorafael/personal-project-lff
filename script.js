@@ -24,7 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Event listener for the form submission
   form.addEventListener("submit", function (event) {
     event.preventDefault();
-    closeModal();
+    if (validateReservation()) {
+      closeModal();
+    }
   });
 
   // Event listener for the close button (x)
@@ -39,6 +41,41 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function validateReservation() {
+  const numPeople = parseInt(document.getElementById("people").value);
+  const reservationTime = document.getElementById("time").value;
+  const reservationDate = new Date(document.getElementById("date").value);
+  const reservationDay = reservationDate.getDay(); // 0 = Sunday, 1 = Monday
+
+  // Check if the number of people exceeds the limit
+  if (numPeople > 10) {
+    alert(
+      "The maximum number of people per reservation online is 10, please contact us if you would like to book more than 10 people."
+    );
+    return false;
+  }
+
+  // Check if the time is within the allowed range (5:30 pm to 9:30 pm)
+  const [hours, minutes] = reservationTime.split(":").map(Number);
+  if (
+    hours < 17 ||
+    (hours === 17 && minutes < 30) ||
+    hours > 21 ||
+    (hours === 21 && minutes < 30)
+  ) {
+    alert("We only take reservations from 5:30 pm to 9:30 pm.");
+    return false;
+  }
+
+  if (reservationDay === 1) {
+    alert("Sorry, we are closed on Mondays.");
+    return false;
+  }
+
+  // If all checks pass, return true
+  return true;
+}
 
 // visibility = hidden css
 //$("#myModal").modal();//
