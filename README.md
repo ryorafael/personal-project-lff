@@ -1,39 +1,37 @@
-# personal-project-lff
 
-website being made for Le Fou Frog
+# Le Fou Frog Website
 
-12/05 working on html structure, gathering information for project, figuring out texts and images needed for final presentation
+This project is a testament to my dedication to my parents and their small business restaurant, Le Fou Frog, located in Kansas City, Missouri. While they currently have a website built on WIX, I saw an opportunity to leverage my growing skills in HTML, CSS, and JavaScript to create a fresh and innovative online presence for their establishment. As I progress in my studies, I plan to further enhance this project by integrating it into a library with Angular and TypeScript, accompanied by my own backend server. 
 
-12/07 still working on html structure, css slowly starting to come together , worked on lower down and hover toggles for the menu
+## Deployment
 
-need to figure out how to merge hover down class with grid class
+you can see the old version with html, css, javascript on
+https://lefoufrogproject.netlify.app/
 
-12/11 continue to work on styling ideas, my html structure is still having issues with getting things in order
 
-12/12 today was a very progressive day, the dropdown menu finally works, i was able to add multiple pages and link them with the main page, some formatting was done to adjust the index. Css was also adjusted accordingly. The dinner menu has been worked on as of today, and will be formatted later. Will continue to work on the other pages before finishing fonts and colors and such.
+## Roadmap
 
-12/13 finally finished the menu page, now adding style to the page, border radius and colors. Will fix it more at a later time.
+- 12/05/23: Initiated the project by structuring the HTML, gathering necessary information, and planning the required text and images for the final presentation.
+- 12/07/23: Continued refining the HTML structure, with CSS gradually taking shape. Focused efforts on implementing lower down and hover toggles for the menu, while seeking solutions to merge hover-down class with grid class.
+- 12/11/23: Continued exploration of styling ideas, addressing persistent issues with HTML structure organization.
+- 12/12/23: Made significant progress with the dropdown menu functionality, successfully linking multiple pages with the main page. Implemented formatting adjustments to the index and began work on the dinner menu. CSS was adjusted accordingly.
+- 12/13/23: Completed the menu page and initiated the styling process, incorporating border radius and colors. Further refinements planned for a later stage.
+- 12/18/23: Worked on the cocktail menu and ensured the navigation bar is present on all pages for improved user navigation. Identified and noted issues with the mobile website layout for future adjustments.
+- 01/19/24: Received valuable feedback from teachers and classmates, prompting the creation of a new branch dedicated to developing a responsive website. Focus shifted towards optimizing the website for mobile devices.
+- **This project has been put on hiatus as I am trying to move it over to next.js or angular**
+## Task Management
 
-12/18
-Worked on cocktail menu and putting nav bar on all pages for easier directory, noticed a few issues with the phone website that need to be adjusted later on.
+- Utilized a task management system to organize and track progress throughout the project.
 
-01/19/2024
-ideas that were given by teachers and classmates
-make a new branch for responsive website and figure out how to get the stuff on phones
+- Referenced a list of websites and resources tailored for beginners to enhance skills and knowledge.
 
-https://chat.openai.com/share/26c7bc6a-ed2a-4cb6-870a-a85765a72f6f list of websites, tasks management for a complete beginner
-add photos opacity min, png
-fichier json information, nom , lheure, nombre de personnes, sous format json, tirer json sur html , données dans local
-established in 1996 = make smaller or another font
-food first, history second
-accessibility, photos are important for handicap access, baby carriages etc, children allowed or no ?
-des liens direct a des endroits dans le page
+- Incorporated suggestions such as adjusting photo opacity and using PNG format for images to improve visual appeal and performance.
 
-01/19/2024
-added a new google reviews widget to the bottom of the page
 
-01/23/2024
-the modal was added and adjusted to only show onclick with a javascript function. Now you can make a reservation, but the backend needs to be fixed in order for the submission to be saved locally. The header image was added for the first page. Some minor adjustments will be done to start a slideshow function with images of the restaurant.
+## Future Plans
 
-1/31/2024
-working on finishing the projects front ent, about us page, event page and the two other menus are still in progress, but will try and finish the about us page today and then work on event page tomorrow
+
+- Implement responsive design principles to ensure optimal user experience across various devices.
+- Integrate Angular and TypeScript to enhance functionality and maintainability.
+- Develop a custom backend server to overcome limitations posed by third-party APIs.
+- Continuously refine and optimize the website to align with evolving industry standards and user expectations.
